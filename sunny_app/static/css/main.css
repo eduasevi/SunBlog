@@ -6,3 +6,8 @@ body {
   background-size: cover;
   -o-background-size: cover;
 }
+
+.page-title {
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkgreen;
+}
