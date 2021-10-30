@@ -27,7 +27,16 @@
       style="background-color: #fff"
     >
       <div class="container-fluid">
-        <a class="navbar-brand" href="/home">HikerBlog</a>
+        <a class="navbar-brand" href="/home">
+          <img
+            src="static/logo.png"
+            alt="Adventure Seekers"
+            width="50"
+            height="50"
+            class="d-inline-block align-center"
+          />
+          Adventure Seekers</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -37,7 +46,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbar">
-          <div class="navbar-nav">
+          <ul class="navbar-nav ms-auto text-center">
             <a class="nav-item nav-link" href="/home">Home</a>
             {% if user.is_authenticated %}
             <a class="nav-item nav-link" href="/logout">Logout</a>
@@ -45,7 +54,7 @@
             <a class="nav-item nav-link" href="/login">Login</a>
             <a class="nav-item nav-link" href="/sign-up">Sign Up</a>
             {% endif %}
-          </div>
+          </ul>
         </div>
       </div>
     </nav>

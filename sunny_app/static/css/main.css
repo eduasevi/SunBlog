@@ -5,6 +5,11 @@ body {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-text {
+  text-align: center;
 }
 
 .page-title {
